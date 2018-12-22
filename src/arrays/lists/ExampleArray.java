@@ -1,3 +1,5 @@
+package arrays.lists;
+
 public class ExampleArray {
 
     public static void someArray() {

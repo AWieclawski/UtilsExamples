@@ -1,3 +1,5 @@
+package arrays.lists;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -6,9 +8,7 @@ public class ArraysShuffle {
     protected static String[] nonDuplicateStringArrayShuffle(String[] arrayToShuffle) {
 
         String[] shuffledArray = new String[arrayToShuffle.length];
-
         ArrayList<String> shuffledList = new ArrayList<>(arrayToShuffle.length);
-
         Random randomGenerator = new Random();
 
         while (shuffledList.size() < arrayToShuffle.length) {
