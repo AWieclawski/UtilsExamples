@@ -11,8 +11,8 @@ public class InputFile {
         String csvFile = "src/resources/pass.csv";
         String line = null;
         String csvSplitBy = "\\p{Punct}";// Lines splitted by "|" - POSIX character class
-        List<String[]> dataList = new ArrayList<>();
 
+        List<String[]> dataList = new ArrayList<>();
         String[] correctFileline = null;
         String[] correctFileline$ = null;
 
